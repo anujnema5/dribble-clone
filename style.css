@@ -1,0 +1,208 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Gilroy;
+}
+
+body,html {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#nav #left {
+    display: flex;
+    gap: 27px;
+    margin-left: 20px;
+    align-items: center;
+
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+#nav #right {
+    display: flex;
+    margin-right: 40px;
+    gap: 20px;
+    align-items: center;
+}
+
+#right button {
+    background-color: #EA4C89;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    transition: 500ms;
+    
+}
+
+#right button:hover {
+    background-color: #e96e9d;
+    
+    
+}
+
+#content {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.895);
+    color: white;
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/7130475/pexels-photo-7130475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+}
+
+#buttons {
+    width: 90%;
+    margin: 0px auto;
+}
+#buttons button {
+    background : transparent;
+    background-color: rgba(0, 0, 0, 0.253);
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: ease 500ms;
+    margin: 40px auto;
+}
+
+#buttons button:first-child {
+    background-color: white;
+    color: black;
+}
+
+#buttons button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+#text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+#content input {
+    margin-top: 50px;
+    border-radius: 50px;
+    padding: 17px 14%;
+    border: none;
+}
+
+#buttons2 {
+    margin-top: 45px;
+    color: white;
+}
+
+#buttons2 span {
+    font-size: 11.50px;
+    margin-right: 5px;
+}
+
+#buttons2 button {
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+
+#third {
+    display: flex;
+    margin-top: 0px;
+    padding: 50px;
+    /* margin-bottom: 50px; */
+    /* width: 100vw; */
+}
+
+#first {
+    width: 40%;
+}
+
+#first h1 {
+    font-size: 45px;
+}
+
+#first p:first-child {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#first #para2 {
+    font-size: 15px;
+    font-weight: 500;
+    opacity: .6;
+    margin-top: 10px;
+}
+
+#first button {
+    margin-top: 20px;
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: 1px solid #160A2E;
+    background-color: #160A2E;
+    color: white;
+    font-weight: bold;
+    transition: 500ms;
+}
+
+#first button:hover {
+    color: #160A2E;
+    background-color: white;
+    border: 0.1px solid #160A2E;
+}
+
+#second {
+    width: 60%;
+    position: relative;
+    left: 50px;
+    margin-top: 50px;
+}
+
+#second #img1 {
+    width: 50vw;
+    border-radius: 50px;
+}
+
+#second #image2 #img2 {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    bottom: 70%;
+    right: 70%;
+    border-radius: 20px;
+}
+
+#second #image2 #img3 {
+    
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    left: 50%;
+    top: 80%;
+}
+
